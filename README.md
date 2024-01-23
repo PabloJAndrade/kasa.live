@@ -85,7 +85,7 @@ Para executar em modo headless, edite o arquivo base.resource na linha 12 e defi
    Por padrão, os logs serão salvos no diretório atual. Se deseja salvar os logs em uma pasta específica, você pode utilizar a opção -d:
 
 ```
-robot -d ./logs path/to/tests/directory
+robot -d ./logs teste.robot
 ```
 
 Isso salvará os logs no diretório especificado.
