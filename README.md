@@ -69,25 +69,23 @@ pip install robotframework
 
 Executando os Testes
 
+### É recomendado já está dentro do diretorio dos testes ao executar os comandos.
+
 6. Execução Padrão
    Para executar todos os testes no diretório:
 
 ```
-robot caminho/para/diretorio/testes
+robot -r ./logs ./
 ```
 
 **_(opcional)Execução em Modo Headless:
 Para executar em modo headless, edite o arquivo base.resource na linha 12 e defina headless=True. Em seguida, execute os testes como de costume:_**
 
-```
-robot path/to/tests/directory
-```
-
 7. Salvando Logs
    Por padrão, os logs serão salvos no diretório atual. Se deseja salvar os logs em uma pasta específica, você pode utilizar a opção -d:
 
 ```
-robot -d path/to/logs path/to/tests/directory
+robot -d ./logs path/to/tests/directory
 ```
 
 Isso salvará os logs no diretório especificado.
